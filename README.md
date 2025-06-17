@@ -33,7 +33,7 @@ Custom bypasses for modern Flutter TLS validation logic
 2. Copy
 3. Edit
 4. frida -l "bypass-script" -f <package-name> -U
-✅ Tested on various rooted emulators and devices, including apps using modern Flutter builds.
+5. ✅ Tested on various rooted emulators and devices, including apps using modern Flutter builds.
 
 ## 🛠️ Requirements
 Frida (latest stable)
