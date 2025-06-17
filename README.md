@@ -1,5 +1,15 @@
 # Root-detection-SSL-Pinning-and-Emulator-detection-bypass-Android-bypass-script
 Here is a consolidated Frida script designed to bypass:  SSL Pinning (generic + Flutter-specific)  Root Detection (including file-based checks)  Developer Mode checks  Telephony spoofing  Flutter TLS validation (ssl_verify_peer_cert)
+For Application not build in Flutter
+| Bypass Type          | Techniques Covered                                  |
+| -------------------- | --------------------------------------------------- |
+| SSL Pinning          | Java, TrustManagerImpl, SSLContext, Cert Validation |
+| Root Detection       | Custom method hooks, file existence bypass          |
+| Developer Mode Check | `Settings.Secure` & `Settings.Global`               |
+| Device Info Spoofing | Fake IMSI & SIM serial                              |
+
+
+For Flutter Based Application
 | Feature                 | Description                                   |
 | ----------------------- | --------------------------------------------- |
 | ✅ Developer Mode Check  | Overrides Android `Settings.getInt()` calls   |
