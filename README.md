@@ -29,11 +29,10 @@ Telephony spoofing to evade environment-based detection
 Custom bypasses for modern Flutter TLS validation logic
 
 ## 📦 Usage
-bash
-Copy
-Edit
-frida -l "bypass-script" -f "package-name" -U
-frida -U -n <package-name> -l bypass.js
+1. bash
+2. Copy
+3. Edit
+4. frida -l "bypass-script" -f <package-name> -U
 ✅ Tested on various rooted emulators and devices, including apps using modern Flutter builds.
 
 ## 🛠️ Requirements
